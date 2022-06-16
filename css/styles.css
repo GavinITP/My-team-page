@@ -56,3 +56,38 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* Profile */
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile__picture {
+  width: 100%;
+  max-width: 140px;
+  margin: 0 0.5rem 1rem 0;
+}
+
+.profile__job {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "PT Serif", "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+.profile__name {
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__picture {
+    max-width: 240px;
+  }
+
+  .profile__job {
+    font-size: 1.2rem;
+  }
+}
