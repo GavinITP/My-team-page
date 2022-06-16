@@ -60,7 +60,6 @@ p {
 /* Profile */
 .profile {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .profile__picture {
@@ -91,3 +90,6 @@ p {
     font-size: 1.2rem;
   }
 }
+
+/* Team Board */
+
