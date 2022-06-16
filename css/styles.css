@@ -34,7 +34,7 @@ p {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   h3,
   p {
     font-size: 1.8rem;
@@ -44,16 +44,18 @@ p {
 /* Article */
 .article {
   display: grid;
-  margin-top: 5vh;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .article__description {
   width: 35ch;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .article {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 9rem;
   }
 }
 
@@ -81,9 +83,9 @@ p {
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .profile__picture {
-    max-width: 240px;
+    max-width: 230px;
   }
 
   .profile__job {
@@ -92,21 +94,22 @@ p {
 }
 
 /* Team Board */
-/* TODO:check grid column again */
 .team__board {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 6.4rem 4rem;
+  margin-bottom: 8rem;
 }
 
 .profile:nth-of-type(2n) {
   transform: translate(0, 4rem);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .team__board {
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 13rem 4rem;
+    margin-bottom: 17rem;
   }
 
   .profile:nth-of-type(2n) {
@@ -125,10 +128,23 @@ p {
   font-weight: 500;
   text-align: center;
   color: #a9a9a9;
+  margin-bottom: 2rem;
 }
 
 .website-owner a {
   color: #a9a9a9;
   font-weight: 700;
-  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .website-owner {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Page container */
+.container {
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 2rem;
 }
