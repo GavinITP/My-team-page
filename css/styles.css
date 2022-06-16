@@ -1,0 +1,41 @@
+/* Typograhy */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-family: "PT Serif", "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3,
+p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  h3,
+  p {
+    font-size: 1.8rem;
+  }
+}
