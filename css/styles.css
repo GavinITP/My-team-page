@@ -11,6 +11,7 @@ h1 {
   font-size: 3.6rem;
   font-family: "PT Serif", "Times New Roman", Times, serif;
   font-weight: 700;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -37,5 +38,21 @@ p {
   h3,
   p {
     font-size: 1.8rem;
+  }
+}
+
+/* Article */
+.grid {
+  display: grid;
+  margin-top: 5vh;
+}
+
+.description {
+  width: 35ch;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
