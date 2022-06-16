@@ -92,4 +92,12 @@ p {
 }
 
 /* Team Board */
+.team__board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem 0;
+}
 
+.team__board:nth-of-type(even) {
+  
+}
