@@ -148,3 +148,10 @@ p {
     margin-bottom: 2rem;
   }
 }
+
+/* Page container */
+.container {
+  margin: 0 auto;
+  max-width: max-content;
+  padding: 1rem;
+}
