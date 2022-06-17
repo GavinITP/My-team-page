@@ -1,3 +1,10 @@
+/* Page Container */
+body {
+  margin: 0 auto;
+  max-width: max-content;
+  padding: 1rem;
+}
+
 /* Typograhy */
 html {
   font-size: 62.5%;
@@ -140,11 +147,4 @@ p {
   .website-owner {
     margin-bottom: 2rem;
   }
-}
-
-/* Page container */
-.container {
-  margin: 0 auto;
-  max-width: max-content;
-  padding: 0.5rem;
 }
